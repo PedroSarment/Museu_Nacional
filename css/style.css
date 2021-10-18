@@ -23,6 +23,10 @@ a:hover{
 /* HEADER 
 ---------------------------- */
 
+header {
+    margin: 20px 0 50px 0;
+}
+
 #logo{
     float: left;
 }
@@ -60,4 +64,97 @@ nav ul li a:hover{
     border-bottom: solid 1px green;
     
 
+}
+
+
+/* CONTEUDOS 
+------------------------------- */
+
+
+#principal {
+    width: 710px;
+    float: left;
+    margin-bottom: 50px;
+
+}
+
+aside {
+    width: 350px;
+    float: right;
+    background: silver;
+}
+
+
+h4 {
+    color: #A86E13;
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3{
+    color: #15714e;
+    font-size: 1.0em;
+    margin-bottom:  15px;
+    text-transform: uppercase;
+
+}
+
+article#video {
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+
+article#mapa {
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+}
+
+article#exposicoes {
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+
+article#texto {
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+}
+
+legend{
+    display: none;
+}
+
+fieldset{
+    border: none;
+}
+
+.input {
+    background: #835C48;
+    width: 100%;
+    color: #FFF;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#galeria{
+    margin: 30px 24px;
+}
+
+#galeria img{
+    margin: 2px;
+}
+
+#footer {
+    background: url(../img/fundo-rodape.png) repeat-x top;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#footer a {
+    margin: 0 10px;
 }
